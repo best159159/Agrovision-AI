@@ -1,0 +1,16 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+python-dotenv==1.0.1
+httpx==0.28.1
+opencv-python-headless==4.10.0.84
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+ultralytics==8.3.51
+pillow==11.0.0
+numpy==1.26.4
+tensorflow==2.20.0
+scikit-learn==1.7.0
+matplotlib==3.10.3
+seaborn==0.13.2

@@ -1,0 +1,10 @@
+.git
+.next
+node_modules
+backend/.venv
+backend/.venv-win
+**/__pycache__
+*.pyc
+*.log
+eval_results
+cassava_ai_outputs_fast/checkpoints

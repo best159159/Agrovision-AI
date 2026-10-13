@@ -1,0 +1,17 @@
+1
+00:00:00,000 --> 00:00:01,000
+<font size="28">FrameCnt: 1, DiffTime: 33ms
+2026-07-21 10:00:00
+[latitude: 15.870000] [longitude: 100.992500] [rel_alt: 25.0 abs_alt: 125.0] </font>
+
+2
+00:00:01,000 --> 00:00:02,000
+<font size="28">FrameCnt: 30, DiffTime: 33ms
+2026-07-21 10:00:01
+[latitude: 15.870120] [longitude: 100.992650] [rel_alt: 25.0 abs_alt: 125.0] </font>
+
+3
+00:00:02,000 --> 00:00:03,000
+<font size="28">FrameCnt: 60, DiffTime: 33ms
+2026-07-21 10:00:02
+[latitude: 15.870240] [longitude: 100.992800] [rel_alt: 25.0 abs_alt: 125.0] </font>

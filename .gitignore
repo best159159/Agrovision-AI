@@ -1,0 +1,23 @@
+node_modules
+.next
+out
+.env.local
+
+backend/.env
+backend/.venv
+backend/.venv-win
+__pycache__
+*.pyc
+*.log
+
+# Large model binaries — exceed GitHub's 100MB file limit, distribute separately (e.g. Git LFS, release asset, or cloud storage link in README)
+*.h5
+*.keras
+cassava_ai_outputs_fast/
+
+# Local-only scratch, not part of submission
+_archive_not_for_submission/
+backend/*.db
+backend/kaggle_data/
+backend/eval_results/
+tsconfig.tsbuildinfo

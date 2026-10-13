@@ -1,0 +1,42 @@
+{
+  "name": "agrovision-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others --names frontend,backend --prefix-colors cyan,green \"npm:dev:frontend\" \"npm:dev:backend\"",
+    "dev:frontend": "next dev --hostname 127.0.0.1 --port 3000",
+    "dev:backend": "cd backend && python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test:backend": "python -m unittest discover -s backend/tests -p test_*.py",
+    "test": "npm run lint && npm run test:backend"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "@types/leaflet": "^1.9.21",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "leaflet": "^1.9.4",
+    "lucide-react": "latest",
+    "next": "15.5.19",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-leaflet": "^5.0.0",
+    "recharts": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "concurrently": "^10.0.3",
+    "eslint": "latest",
+    "eslint-config-next": "15.5.19",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
+  }
+}
