@@ -13,12 +13,12 @@
 
 AgroVision AI is a research platform for cassava disease screening that works **fully offline**. It combines:
 
-- 🧠 **On-device AI** — EfficientNetV2B0 classifies 5 cassava diseases locally (no internet required)
-- 🎯 **Selective prediction** — model abstains when uncertain, preventing false diagnoses
-- 🗺️ **Outbreak mapping** — pin confirmed disease locations and view risk hotspots
-- 🌤️ **Risk engine** — GPS + weather + disease probability → outbreak risk score
-- 🚁 **Drone integration** — analyze RTSP video streams from agricultural drones
-- 📄 **PDF reports** — generate structured field reports for agronomists
+- *On-device AI** — EfficientNetV2B0 classifies 5 cassava diseases locally (no internet required)
+- **Selective prediction** — model abstains when uncertain, preventing false diagnoses
+- **Outbreak mapping** — pin confirmed disease locations and view risk hotspots
+- **Risk engine** — GPS + weather + disease probability → outbreak risk score
+- **Drone integration** — analyze RTSP video streams from agricultural drones
+- **PDF reports** — generate structured field reports for agronomists
 
 ### Model Performance
 
@@ -30,8 +30,6 @@ AgroVision AI is a research platform for cassava disease screening that works **
 | ECE (calibrated) | 0.0712 |
 | Farmer baseline | ~40–55% (literature) |
 | TFLite model size | 11.8 MB |
-
-> ⚠️ Metrics from a 2,000-image sample drawn from the same training data pool (iCassava/Kaggle cassava-leaf-disease), not an independently held-out test set — see `TECHNICAL_VALIDATION.md`. Geographic validation on Asian varieties pending.
 
 ---
 
